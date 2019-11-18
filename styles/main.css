@@ -1,0 +1,73 @@
+/* 
+COLOR SCHEME
+
+Blue #00a6fb
+White #ffffff
+Black #353535
+Orange #e34e09
+Grey #F9F9F9
+*/
+
+body {
+  background-color: #F9F9F9;
+  font-size: max(14px, 1.8vw);
+  margin-top: 71px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+main {
+    min-height: calc(100vh - 110px);
+}
+
+footer {
+    height: 20px;
+}
+
+
+/* NAVBAR STYLING */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  transition: all 0.5s;
+  background-color: #fff;
+  box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 8px 0px;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+    color: #353535;
+}
+
+.navbar .navbar-nav > li > a:hover {
+    background-color: inherit;
+    box-shadow: inset 0px -4px 0px 0px #e34e09;
+}
+
+.navbar .navbar-nav > .current {
+    color: #00a6fb;
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.25em;
+  letter-spacing: 3px;
+}
+
+.container-fluid {
+  background-color: #fff;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+  background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
