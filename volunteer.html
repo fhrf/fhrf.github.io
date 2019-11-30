@@ -103,18 +103,80 @@
             <div class="col-12">
                 <h2 class="heading text-center">VOLUNTEER</h2>
             </div>
-            <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">Want to register?</p>
-                <p class="content">
-                    There are many ways to join us and support our mission. Contact us to find out more. Let's bring
-                    our abilities and passions together to affect real change.
-                </p>
-            </div>
+
             <div class="col-12 col-md-6">
 
                 <p class="content font-weight-bold">Already a member?</p>
                 <p class="content">
-                    search
+                    <form class="form needs-validation" action="#" onSubmit="onMemberSearch(event)">
+                        <div class="form-group row">
+                            <div class="col-8 col-md-8">
+                                <input type="text" class="form-control" id="memberIdField"
+                                    placeholder="Enter membership id">
+                                <div class="text-danger" id="memberIdErrorField" style="display: none;">No record found.
+                                    Check your Id!</div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">My ID card</button>
+                    </form>
+                </p>
+                <p class="content">
+                    <a id="idCardDownloadLink" href="" target="_blank">
+                        <img class="idCardImg" id="idCardImg" src="" />
+                    </a>
+                </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <p class="content font-weight-bold">Join our mission</p>
+                <p class="content">
+                    There are many ways to join us and support our mission. Let's bring
+                    our abilities and passions together to affect real change.
+                </p>
+
+                <p class="content font-weight-bold">Application form</p>
+                <a class="thumbnail-application-form" href="media/membership-form.pdf" target="_blank">
+                    <img src="media/thumbnail-application-form.PNG" />
+                </a>
+
+                <p class="content font-weight-bold">Membership Fee</p>
+                <p class="content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Membership</th>
+                                <th scope="col">Application Fee <br />(one time)</th>
+                                <th scope="col">Renewal Fee <br />(yearly)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Active Member</td>
+                                <td>500 /-</td>
+                                <td>300 /-</td>
+                            </tr>
+                            <tr>
+                                <td>Ward unit</td>
+                                <td>1000 /-</td>
+                                <td>700 /-</td>
+                            </tr>
+                            <tr>
+                                <td>Tahsil unit</td>
+                                <td>2000 /-</td>
+                                <td>1300 /-</td>
+                            </tr>
+                            <tr>
+                                <td>District unit</td>
+                                <td>3000 /-</td>
+                                <td>1800 /-</td>
+                            </tr>
+                            <tr>
+                                <td>State unit</td>
+                                <td>5000 /-</td>
+                                <td>3000 /-</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </p>
             </div>
         </div>
@@ -146,7 +208,7 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- custom js -->
-    <!-- <script type="text/javascript" src="scripts/main.js"></script> -->
+    <script type="text/javascript" src="scripts/member-search.js"></script>
 </body>
 
 </html>
