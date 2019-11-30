@@ -1,0 +1,94 @@
+/* 
+COLOR SCHEME
+
+Blue #00a6fb
+White #ffffff
+Black #353535
+Orange #e34e09
+Grey #F9F9F9
+*/
+
+body {
+  background-color: #f9f9f9;
+  max-width: 1200px;
+  margin: auto;
+  /* margin-top: 80px; */
+}
+
+main {
+  min-height: 100vh;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media (max-width: 450px) {
+  main {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+footer {
+  height: 20px;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 0 0;
+  transition: all 0.5s ease;
+  /* background-color: #fff; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 8px 0px;
+  box-sizing: border-box;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
+  color: #353535;
+  background-color: inherit;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  box-shadow: inset 0px -4px 0px 0px #e34e09;
+}
+
+.navbar .navbar-nav > .current {
+  color: #00a6fb;
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 1.25em;
+  letter-spacing: 3px;
+}
+
+.container-fluid {
+  background-color: #fff;
+}
+
+.navbar-toggle {
+  border: none;
+}
+
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
+  background-color: #fff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: black;
+}
+
+/* DONATE ICON */
+.float-btn-donate {
+  position: fixed;
+  width: 64px;
+  height: 64px;
+  bottom: 8px;
+  right: 8px;
+  background-color: #0c9;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}

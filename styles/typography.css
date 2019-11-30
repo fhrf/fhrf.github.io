@@ -1,0 +1,48 @@
+.heading {
+  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.content {
+  font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5em;
+}
+
+/* QUOTE */
+.quote {
+  display: block;
+  border-width: 2px 0;
+  border-style: solid;
+  border-color: #eee;
+  padding: 1.5em 0 0.5em;
+  margin: 1.5em auto;
+  position: relative;
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+  display: table;
+  font-size: 1.2rem;
+}
+
+.quote:before {
+  content: "\201C";
+  position: absolute;
+  top: 0em;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f9f9f9;
+  background-color: #f9f9f9;
+  width: 3rem;
+  height: 2rem;
+  font: 6em/1.08em "PT Sans", sans-serif;
+  color: #666;
+  text-align: center;
+}
+
+.quote:after {
+  content: attr(cite);
+  display: block;
+  text-align: center;
+  font-size: 0.875em;
+  color: #e74c3c;
+}
