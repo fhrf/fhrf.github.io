@@ -10,6 +10,14 @@
   margin: 30px auto;
 }
 
+.font-heading {
+  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-content {
+  font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /* Donate page - Bank details */
 .bank-details dt {
   font-weight: normal;
