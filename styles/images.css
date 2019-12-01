@@ -1,9 +1,25 @@
 .imgContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 .imgContainer > img {
-  width: 200px;
+  /* width: 200px; */
   height: 200px;
   object-fit: cover;
   padding: 4px;
+}
+
+@media only screen and (max-width: 300px) {
+  .imgContainer > img {
+    /* width: 200px; */
+  }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  .imgContainer > img {
+    /* width: 48%; */
+  }
 }
