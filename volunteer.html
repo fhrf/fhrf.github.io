@@ -39,63 +39,101 @@
 
 <body>
 
-    <main class="">
+    <main>
         <blockquote cite="John F. Kennedy" class="quote text-center">
             The rights of every man are diminished when the rights of one man are threatened.
         </blockquote>
 
         <div class="row">
             <div class="col-12">
-                <h2 class="heading text-primary text-center">DONATE <span class="text-muted text-italics">to fight for
-                        equality</span></h2>
+                <h2 class="heading text-center">VOLUNTEER</h2>
             </div>
-            <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">How can you help?</p>
 
+            <div class="col-12 col-md-6">
+
+                <p class="content font-weight-bold">Already a member?</p>
                 <p class="content">
-                    Your support fuels out fight for equality.
+                    <form class="form needs-validation" action="#" onSubmit="onMemberSearch(event)">
+                        <div class="form-group row">
+                            <div class="col-8 col-md-8">
+                                <input type="text" class="form-control" id="memberIdField"
+                                    placeholder="Enter membership id">
+                                <div class="text-danger" id="memberIdErrorField" style="display: none;">No record found.
+                                    Check your Id!</div>
+                            </div>
+                        </div>
+                        <button type="submit" id="dummyBtn" class="btn btn-primary">My ID card</button>
+                    </form>
                 </p>
                 <p class="content">
-                    By donating to FHRF today, you are helping resist attacks against <strong>human rights</strong> and
-                    continuing to push equality forward.
-                </p>
-                <p class="content">
-                    Your support and contributions will enable us to meet our goals and improve conditions. Your
-                    generous
-                    donation will fund our mission.
-                </p>
-                <p class="content">
-                    Thank you.
-                </p>
+                    <a title="Click to download" href="" download>
+                        <img class="idCardImg" id="idCardImg" src="" />
+                    </a>
                 </p>
             </div>
+
             <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">How to donate?</p>
+                <p class="content font-weight-bold">Join our mission</p>
+                <p class="content">
+                    There are many ways to join us and support our mission. Let's bring
+                    our abilities and passions together to affect real change.
+                </p>
 
-                <dl class="row bank-details">
-                    <dt class="col-4">Bank</dt>
-                    <dd class="col-8">Bank of Maharashtra</dd>
+                <p class="content font-weight-bold">Application form</p>
+                <a class="thumbnail-application-form" title="Click to download the form"
+                    href="media/membership-form.pdf" download="">
+                    <img src="media/thumbnail-application-form.PNG" />
+                </a>
 
-                    <dt class="col-4">Account Name</dt>
-                    <dd class="col-8">First Human Rights Foudation</dd>
-
-                    <dt class="col-4">Account No</dt>
-                    <dd class="col-8">60275204481</dd>
-
-                    <dt class="col-4">IFSC Code</dt>
-                    <dd class="col-8">MAHB0001220</dd>
-
-                    <dt class="col-4">MICR Code</dt>
-                    <dd class="col-8">413014103</dd>
-
-                    <dt class="col-4">Branch Code</dt>
-                    <dd class="col-8">1220-06</dd>
-
-                    <dt class="col-4">Branch</dt>
-                    <dd class="col-8">Dashmeshnagar, Shrirampur</dd>
-                </dl>
+                <p class="content font-weight-bold">Membership Fee</p>
+                <p class="content">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Membership</th>
+                                <th scope="col">Application Fee <br />(one time)</th>
+                                <th scope="col">Renewal Fee <br />(yearly)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Active Member</td>
+                                <td>500 /-</td>
+                                <td>300 /-</td>
+                            </tr>
+                            <tr>
+                                <td>Ward unit</td>
+                                <td>1000 /-</td>
+                                <td>700 /-</td>
+                            </tr>
+                            <tr>
+                                <td>Tahsil unit</td>
+                                <td>2000 /-</td>
+                                <td>1300 /-</td>
+                            </tr>
+                            <tr>
+                                <td>District unit</td>
+                                <td>3000 /-</td>
+                                <td>1800 /-</td>
+                            </tr>
+                            <tr>
+                                <td>State unit</td>
+                                <td>5000 /-</td>
+                                <td>3000 /-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </p>
             </div>
         </div>
+
+
+
+
+        <!-- Floating donate button -->
+        <a href="/donate.html" class="float-btn-donate">
+            <img src="media/icons/donate-64.png" />
+        </a>
     </main>
 
     <!-- external scripts -->
@@ -116,7 +154,7 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- custom js -->
-    <!-- <script type="text/javascript" src="scripts/main.js"></script> -->
+    <script type="text/javascript" src="scripts/member-search.js"></script>
 </body>
 
 </html>

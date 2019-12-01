@@ -10,6 +10,11 @@
   margin: 30px auto;
 }
 
+/* Donate page - Bank details */
+.bank-details dt {
+  font-weight: normal;
+}
+
 /* QUOTE */
 .quote {
   display: block;

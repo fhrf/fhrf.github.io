@@ -92,3 +92,10 @@ footer {
   text-align: center;
   box-shadow: 2px 2px 3px #999;
 }
+
+/* MEMBER ID CARD IMG */
+.idCardImg {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+}
