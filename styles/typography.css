@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .heading {
   font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 50px;
@@ -8,6 +12,14 @@
   font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.8em;
   margin: 30px auto;
+}
+
+.font-heading {
+  font-family: "Nunito", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font-content {
+  font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Donate page - Bank details */

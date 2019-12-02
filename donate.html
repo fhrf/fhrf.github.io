@@ -40,9 +40,7 @@
 <body>
 
     <main class="">
-        <blockquote cite="John F. Kennedy" class="quote text-center">
-            The rights of every man are diminished when the rights of one man are threatened.
-        </blockquote>
+        <blockquote id="quote" class="quote text-center"></blockquote>
 
         <div class="row">
             <div class="col-12">
@@ -50,9 +48,9 @@
                         equality</span></h2>
             </div>
             <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">How can you help?</p>
+                <p class="content font-weight-bold font-heading">How can you help?</p>
 
-                <p class="content">
+                <p class="content font-content">
                     Your support fuels out fight for equality.
                 </p>
                 <p class="content">
@@ -70,9 +68,13 @@
                 </p>
             </div>
             <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">How to donate?</p>
+                <p class="content font-weight-bold font-heading">How to donate?</p>
 
-                <dl class="row bank-details">
+                <p class="content font-content">
+                    You can donate to FHRF via NEFT, RTGS, Cheque or DD to following account -
+                </p>
+
+                <dl class="row font-content bank-details">
                     <dt class="col-4">Bank</dt>
                     <dd class="col-8">Bank of Maharashtra</dd>
 
@@ -116,6 +118,7 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- custom js -->
+    <script type="text/javascript" src="scripts/generate-quotes.js"></script>
     <!-- <script type="text/javascript" src="scripts/main.js"></script> -->
 </body>
 

@@ -40,18 +40,17 @@
 <body>
 
     <main>
-        <blockquote cite="John F. Kennedy" class="quote text-center">
-            The rights of every man are diminished when the rights of one man are threatened.
-        </blockquote>
+        <blockquote id="quote" class="quote text-center"></blockquote>
 
         <div class="row">
             <div class="col-12">
-                <h2 class="heading text-center">VOLUNTEER</h2>
+                <h2 class="heading text-primary text-center">VOLUNTEER <span class="text-muted text-italics">to affect
+                        real change</span></h2>
             </div>
 
             <div class="col-12 col-md-6">
 
-                <p class="content font-weight-bold">Already a member?</p>
+                <p class="content font-weight-bold font-heading">Already a member?</p>
                 <p class="content">
                     <form class="form needs-validation" action="#" onSubmit="onMemberSearch(event)">
                         <div class="form-group row">
@@ -73,21 +72,21 @@
             </div>
 
             <div class="col-12 col-md-6">
-                <p class="content font-weight-bold">Join our mission</p>
+                <p class="content font-weight-bold font-heading">Join our mission</p>
                 <p class="content">
                     There are many ways to join us and support our mission. Let's bring
                     our abilities and passions together to affect real change.
                 </p>
 
-                <p class="content font-weight-bold">Application form</p>
+                <p class="content font-weight-bold font-heading">Application form</p>
                 <a class="thumbnail-application-form" title="Click to download the form"
                     href="media/membership-form.pdf" download="">
-                    <img src="media/thumbnail-application-form.PNG" />
+                    <img src="media/thumbnail-application-form.PNG" width="100%" />
                 </a>
 
-                <p class="content font-weight-bold">Membership Fee</p>
+                <p class="content font-weight-bold font-heading">Membership Fee</p>
                 <p class="content">
-                    <table class="table">
+                    <table class="table font-content">
                         <thead>
                             <tr>
                                 <th scope="col">Membership</th>
@@ -154,6 +153,7 @@
     <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- custom js -->
+    <script type="text/javascript" src="scripts/generate-quotes.js"></script>
     <script type="text/javascript" src="scripts/member-search.js"></script>
 </body>
 
