@@ -1,3 +1,16 @@
+#team-img{
+    height: 400px;
+    width: 300px;
+    box-shadow: 0 0 5px #444;
+}
+
+
+
+
+
+
+
+
 
 html{background:#2b7ed8}
 div{box-sizing:border-box}
