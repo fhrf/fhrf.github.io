@@ -19,16 +19,19 @@ h1,h2,h3,h4,h5,h6,p,span,a,label,li,button,input,input[type=button]
 h1,h2,h3,h4,h5,h6,a{color:#444}
 h1 a,h2 a,h3 a,h4 a,h5 a{text-decoration:none}
 h1{font-size:1.5em}
-span.sub{font-size:.9em;vertical-align:sub}
-.box{width:100%}.row,.box{position:relative;z-index:1}
+    span.sub{font-size:.9em;vertical-align:sub}
+    .box{width:100%}
+    .row,.box{position:relative;z-index:1}
 
     
     .site-info{position:relative;z-index:0}
     
    
-    .question-sidebar .box:first-child h3{margin-top:0}.question-sidebar ul{padding-left:2em}
+    .question-sidebar .box:first-child h3{margin-top:0}
+    .question-sidebar ul{padding-left:2em}
     
-    .question-sidebar ul li{list-style:disc}.question-sidebar ul li a{font-weight:600}ul{margin:0;padding:0}
+    .question-sidebar ul li{list-style:disc}
+    .question-sidebar ul li a{font-weight:600}ul{margin:0;padding:0}
     
     ul{list-style:none}
     .full-width{width:100%;max-width:100%}.white-bg{background:#fff}
@@ -42,7 +45,9 @@ span.sub{font-size:.9em;vertical-align:sub}
    
         
   
-    .link:hover,.link:focus,.link:active{color:#191970}.link:focus{outline:thin dotted}.link:hover,.link:active{outline:0}
+    .link:hover,.link:focus,.link:active{color:#191970}
+    .link:focus{outline:thin dotted}
+    .link:hover,.link:active{outline:0}
     
     *{font-family:'Nunito',sans-serif !important}.formkit-form[data-uid=d21e5d8d56] 
     

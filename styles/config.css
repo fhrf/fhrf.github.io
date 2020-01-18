@@ -28,10 +28,6 @@ main {
   }
 }
 
-footer {
-  height: 20px;
-}
-
 /* NAVBAR STYLING */
 .navbar {
   font-family: "Montserrat", sans-serif;
@@ -98,4 +94,55 @@ footer {
   width: 100%;
   height: auto;
   max-width: 300px;
+}
+
+/* FOOTER */
+
+footer .fab,
+footer .fas {
+  font-size: 24px;
+}
+
+.fa-instagram,
+.fa-instagram:hover {
+  color: #f56040;
+}
+
+.fa-whatsapp,
+.fa-whatsapp:hover {
+  color: #4ac959;
+}
+
+.fa-facebook,
+.fa-facebook:hover {
+  color: #4267b2;
+}
+
+.social-links ul li a .fab {
+  line-height: 32px;
+  vertical-align: middle;
+  padding-right: 8px;
+}
+
+.social-links li {
+  border: 0;
+}
+
+.social-links .btn {
+  width: 250px;
+  text-align: left;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer li {
+  padding-bottom: 4px;
+  padding-top: 12px;
+}
+
+footer a:hover {
+  text-decoration: none;
 }

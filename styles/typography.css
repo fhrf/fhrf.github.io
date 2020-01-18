@@ -8,6 +8,10 @@
   margin-bottom: 20px;
 }
 
+.heading:first-child {
+  margin-top: 20px;
+}
+
 .content {
   font-family: "Open Sans", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.8em;
