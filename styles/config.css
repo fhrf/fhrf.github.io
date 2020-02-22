@@ -39,16 +39,17 @@ main {
   box-sizing: border-box;
 }
 
-.navbar .navbar-brand, .navbar .navbar-nav>li>a {
+.navbar .navbar-brand,
+.navbar .navbar-nav > li > a {
   color: #353535;
   background-color: inherit;
 }
 
-.navbar .navbar-nav>li>a:hover {
+.navbar .navbar-nav > li > a:hover {
   box-shadow: inset 0px -4px 0px 0px #e34e09;
 }
 
-.navbar .navbar-nav>.current {
+.navbar .navbar-nav > .current {
   color: #00a6fb;
 }
 
@@ -66,7 +67,8 @@ main {
   border: none;
 }
 
-.navbar .navbar-toggle:focus, .navbar .navbar-toggle:hover {
+.navbar .navbar-toggle:focus,
+.navbar .navbar-toggle:hover {
   background-color: #fff;
 }
 
@@ -99,19 +101,23 @@ main {
 
 /* FOOTER */
 
-footer .fab, footer .fas {
+footer .fab,
+footer .fas {
   font-size: 24px;
 }
 
-.fa-instagram, .fa-instagram:hover {
+.fa-instagram,
+.fa-instagram:hover {
   color: #f56040;
 }
 
-.fa-whatsapp, .fa-whatsapp:hover {
+.fa-whatsapp,
+.fa-whatsapp:hover {
   color: #4ac959;
 }
 
-.fa-facebook, .fa-facebook:hover {
+.fa-facebook,
+.fa-facebook:hover {
   color: #4267b2;
 }
 
