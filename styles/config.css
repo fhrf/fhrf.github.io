@@ -9,7 +9,7 @@ Grey #F9F9F9
 */
 
 body {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
   /* margin-top: 80px; */
 }
 
@@ -49,20 +49,22 @@ main {
 
 .sidebar {
   transition: left 0.25s ease-out;
-  z-index: 9;
+  z-index: 9999;
   position: fixed;
-  width: 300px;
+  width: 250px;
   height: 100vh;
   min-height: 400px;
   top: 0;
   bottom: 0;
-  background-color: antiquewhite;
-  padding-right: 16px;
+  background-color: #ffffff;
+  padding: 8px 16px;
+  border-right: 1px solid #e6ecf0;
+
   left: 0;
 }
 
 .sidebar-collapsed {
-  left: -300px;
+  left: -250px;
 }
 
 .main-content {
@@ -71,7 +73,7 @@ main {
   padding-left: 30px;
   padding-right: 30px;
 
-  margin-left: 300px;
+  margin-left: 250px;
 }
 
 .main-content-collapsed {
@@ -80,7 +82,7 @@ main {
 
 @media only screen and (max-width: 768px) {
   .sidebar {
-    left: -300px;
+    left: -250px;
   }
 
   .sidebar-collapsed {
@@ -107,7 +109,9 @@ main {
   display: flex;
   flex-direction: column;
   list-style: none;
-  padding: 24px;
+
+  padding-left: 0 !important;
+  /* padding: 24px; */
 }
 
 .nav-list li {
@@ -115,16 +119,39 @@ main {
   display: flex;
   align-items: center;
   padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+  cursor: pointer;
   border-radius: 24px;
+
+  width: fit-content;
 }
 
 .nav-list a {
   text-decoration: none;
+  color: #14171a;
+  font-size: 19px;
+}
+
+.nav-list a.active {
+  color: #1da1f2;
 }
 
 .nav-list li:hover {
-  background: lightgray;
-  transition: all 0.5s linear;
+  background-color: rgba(29, 161, 242, 0.1);
+  /* transition: all 0.5s linear; */
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list li {
+    height: 36px;
+    width: 100%;
+    border-radius: 4px;
+  }
+
+  .nav-list a {
+    font-size: 16px;
+  }
 }
 
 /* .navbar {
@@ -192,7 +219,7 @@ main {
 .idCardImg {
   width: 100%;
   height: auto;
-  max-width: 300px;
+  max-width: 250px;
 }
 
 /* FOOTER */
