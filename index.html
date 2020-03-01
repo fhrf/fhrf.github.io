@@ -135,15 +135,16 @@
   <body>
     <div class="sidebar">
       <div
-        id="sidebar-toogler"
-        class="btn btn-primary"
+        id="sidebar-close"
         onclick="toogleSidebar()"
+        style="position: absolute; top: 0; right: 8px; z-index: 999; color: #9197a3"
       >
-        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
       </div>
+
       <div class="row">
         <div class="col-12">
-          <img src="media/favicon/android-icon-96x96.png" />
+          <img src="media/favicon/android-icon-96x96.png" alt="logo" />
         </div>
 
         <div class="col-12" style="margin-top: 32px;">
@@ -161,8 +162,15 @@
 
     <div class="overlay"></div>
     <div class="main-content">
-      <main>
+      <main class="container">
         <div class="row">
+          <div
+            id="sidebar-toogler"
+            onclick="toogleSidebar()"
+          >
+            <!-- <i class="fas fa-bars"></i> -->
+            <i class="fas fa-bars"></i>
+          </div>
           <h2>First Human Rights Foundation</h2>
         </div>
 

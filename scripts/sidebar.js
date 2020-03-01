@@ -8,10 +8,8 @@ function toogleSidebar() {
     const mainContentEle = document.getElementsByClassName("main-content")[0];
     mainContentEle.classList.toggle("main-content-collapsed");
   } else {
-    console.log("didSidebarEleCollapse", didSidebarEleCollapse);
     const overlayEle = document.getElementsByClassName("overlay")[0];
-    overlayEle.style.opacity = didSidebarEleCollapse ? 0.8 : 0;
-    overlayEle.style.opacity = didSidebarEleCollapse ? 'block' : 'none';
+    overlayEle.style.display = didSidebarEleCollapse ? "block" : "none";
   }
 }
 
