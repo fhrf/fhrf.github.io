@@ -141,15 +141,19 @@ main {
 
   z-index: 99;
   position: sticky;
-  color: gray;
-  font-size: 44px;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+
+  color: rgb(92, 92, 92);
+  border: 2px solid rgb(92, 92, 92);
+  border-radius: 6px;
+  font-size: 24px;
+  font-weight: 600;
   top: 4px;
   left: 4px;
-}
-
-#sidebar-toogler i {
-  font-size: 24px;
-  color: wheat;
 }
 
 #sidebar-close {
@@ -205,16 +209,10 @@ main {
   }
 
   #sidebar-toogler {
-    display: block;
+    display: flex;
     /* position: absolute; */
     /* right: -16px; */
     /* top: 16px; */
-
-    width: 32px;
-    height: 32px;
-    line-height: 32px;
-    font-size: 12px;
-    padding: 0;
   }
 
   #sidebar-close {
