@@ -203,7 +203,7 @@
 
       <main>
         <div class="front-cover">
-          <img src="media/activities/025-vegetable-distribution/03.jpg" />
+          <img id="backdrop" style="transition: background 0.5s ease-in; background: url(media/activities/024-mask-distribution/05.jpg)"/>
           <div class="backdrop-text">
             First Human Rights Foundation
             <br />
@@ -348,5 +348,27 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <!-- custom js -->
     <script src="scripts/sidebar.js"></script>
+    <script>
+      const backdropEle = document.getElementById('backdrop');
+      const backdropImgs = [
+        "media/activities/024-mask-distribution/05.jpg",
+        "media/activities/020-books-distribution/10.jpg",
+        "media/activities/025-vegetable-distribution/03.jpg",
+        "media/activities/028-vegetable-distribution/05.jpg",
+        "media/activities/021-food-distribution-seniors/03.jpg",
+        "media/activities/024-mask-distribution/08.jpg",
+
+      ];
+      let currImg = 0;
+      setInterval(
+        () => {
+          backdropEle.style.background =
+            `url(${backdropImgs[currImg++]}) center center no-repeat`;
+          if (currImg === backdropImgs.length)
+            currImg = 0;
+        },
+        3000,
+      )
+    </script>
   </body>
 </html>
