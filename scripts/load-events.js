@@ -1,13 +1,17 @@
-$(document).ready(function() {
+$(document).ready(function () {
   let eventsData = [];
   const eventsContainer = document.getElementById("events-container");
 
   fetch("/events-data.json")
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       eventsData = data;
 
-      eventsData.forEach(event => {
+      eventsData.forEach((event) => {
+        const eventImgs = event.files.map(
+          (file) => `<img src="media/activities/${event.folderName}/${file}">`
+        ).join('');
+
         let eventDom = new DOMParser().parseFromString(
           `<div class="row mt-5">
                     <div class="col-12">
@@ -18,10 +22,7 @@ $(document).ready(function() {
                     </div>
 
                     <div class="col-12 imgContainer">
-                        ${event.files.map(
-                          file =>
-                            `<img src="media/activities/${event.folderName}/${file}">`
-                        )}
+                        ${eventImgs}
                     </div>
                 </div>`,
           "text/html"
