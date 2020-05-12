@@ -43,6 +43,18 @@ const validIds = [
     id: "TS-SU-147",
     file: "TS-SU-147.jpg",
   },
+  {
+    id: "MH-NU-001",
+    file: "MH-NU-001.jpg",
+  },
+  {
+    id: "MH-NU-002",
+    file: "MH-NU-002.jpg",
+  },
+  {
+    id: "MH-DU-195",
+    file: "MH-DU-195.jpg",
+  },
 ];
 const idCardImg = document.getElementById("idCardImg");
 const memberIdErrorField = document.getElementById("memberIdErrorField");
