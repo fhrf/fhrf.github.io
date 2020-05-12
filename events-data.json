@@ -166,5 +166,47 @@
     "folderName": "021-food-distribution-seniors",
     "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg"],
     "description": ""
+  },
+  {
+    "name": "Food Distribution in LB Nagar (Telangana)",
+    "folderName": "022-food-distribution-lbnagar",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Vegetable Distribution by Cheruku Ramakrishna in Telangana",
+    "folderName": "023-vegetable-distribution-rk",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Mask Distribution by Cheruku Ramakrishna in Telangana",
+    "folderName": "024-mask-distribution",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Vegetable Distribution to need ones",
+    "folderName": "025-vegetable-distribution",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Rice & Vegetable Distribution",
+    "folderName": "026-rice-distibution",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Vegetable Distribution in Telangana state",
+    "folderName": "027-vegetable-distribution",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg"],
+    "description": ""
+  },
+  {
+    "name": "Vegetable Distribution by Telangana FHRF Team",
+    "folderName": "028-vegetable-distribution",
+    "files": ["01.jpg", "02.jpg", "03.jpg", "04.jpg", "05.jpg", "06.jpg", "07.jpg", "08.jpg"],
+    "description": ""
   }
 ]
