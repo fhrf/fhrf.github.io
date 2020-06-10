@@ -41,11 +41,18 @@ main {
 } */
 
 /* FRONT COVER */
-.front-cover {
+.height-100vh {
   height: 100vh;
-  width: 100%;
+}
+
+.front-cover {
+  position: absolute;
+  top: 0;
+  border: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
   object-fit: cover;
-  position: relative;
 }
 
 .front-cover img {
