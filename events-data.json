@@ -127,7 +127,7 @@
   {
     "name": "Sweet Distribution",
     "folderName": "017-sweet-distribution",
-    "files": ["01.jpg", "02.jpg", "03.jpg"],
+    "files": ["02.jpg", "03.jpg"],
     "description": ""
   },
   {
@@ -138,8 +138,8 @@
   },
   {
     "name": "Fruits Distribution in Hospital",
-    "folderName": "017-sweet-distribution",
-    "files": ["01.jpeg", "02.jpeg"],
+    "folderName": "019-fruits-distribution",
+    "files": ["01.jpg", "02.jpg"],
     "description": ""
   },
   {
