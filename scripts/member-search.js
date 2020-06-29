@@ -55,6 +55,10 @@ const validIds = [
     id: "MH-DU-195",
     file: "MH-DU-195.jpg",
   },
+  {
+    id: "MH-TU-196",
+    file: "MH-TU-196.jpg",
+  }
 ];
 const idCardImg = document.getElementById("idCardImg");
 const memberIdErrorField = document.getElementById("memberIdErrorField");
