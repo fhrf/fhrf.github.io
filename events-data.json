@@ -1,11 +1,5 @@
 [
   {
-    "name": "Sample Event",
-    "folderName": "031-sample-event",
-    "files": ["01.jpg", "02.jpg", "03.jpg"],
-    "description": "Sample Event in state of MH by FHRF"
-  },
-  {
     "name": "Appreciation Certificate In Shrirampur Tahsil (Riyaj Khan Pathan) by National Director",
     "folderName": "030-appreciation-certificate",
     "files": ["01.jpg", "02.jpg"],
