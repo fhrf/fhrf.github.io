@@ -1,5 +1,25 @@
 const validIds = [
   {
+    id: "MH-DU-173",
+    file: "MH-DU-173.jpg"
+  },
+  {
+    id: "TS-DU-200",
+    file: "TS-DU-200.jpg"
+  },
+  {
+    id: "TS-DU-201",
+    file: "TS-DU-201.jpg"
+  },
+  {
+    id: "TS-DU-202",
+    file: "TS-DU-202.jpg"
+  },
+  {
+    id: "TS-DU-203",
+    file: "TS-DU-203.jpg"
+  },
+  {
     id: "DL-SU-192",
     file: "DL-SU-192.jpg",
   },
