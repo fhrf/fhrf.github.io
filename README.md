@@ -1,7 +1,7 @@
 # Welcome
 This is an official website codebase of Human Rights NGO -
 
-## First Human Rights Foundation
+## First Human Rights Foundation 🙆
 
 FHRF, a non-profit NGO, was established as the will of citizens to participate actively in the Protection of Human Rights
 
@@ -20,11 +20,20 @@ The website uses plain HTML, CSS & basic JS.
 
 You can contribute this project by either improving documentation, website styling (UI/UX) or code structure
 
-Checkout [open issues](https://github.com/fhrf/fhrf.github.io/issues)
-
 > For every commit you make, vercel bot will automatically deploy website preview (To see the status of your deployment, click below or on the icon next to each commit)
 
-## Code structure ↠
+#### Checkout [open issues](https://github.com/fhrf/fhrf.github.io/issues)
+
+## Development 👩‍💻👨‍💻
+1. Fork this repo
+2. Clone the forked repo (`yourusername/fhrf.github.io`)
+2. Open project in your favourite editor
+3. Make changes and open the html file in browser
+   - in VS Code, you can install [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to make your life easy)
+4. Commit and push changes
+5. Raise the PR
+
+## Code structure 🚥
 
 - External libraries
   - Bootstrap - for styling
