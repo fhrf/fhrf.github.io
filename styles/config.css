@@ -12,33 +12,11 @@ body {
   background-color: #ffffff;
   padding: 0 !important;
   margin: 0 !important;
-  /* margin-top: 80px; */
 }
 
 .container {
   max-width: 100%;
 }
-
-main {
-  /* max-width: 100vw; */
-  /* padding: 0; */
-  /* margin: 0; */
-  /* margin-left: 30px; */
-}
-/* main {
-  min-height: 100vh;
-  padding-left: 30px;
-  padding-right: 30px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-@media (max-width: 450px) {
-main {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-} */
 
 /* FRONT COVER */
 .height-100vh {
@@ -217,9 +195,6 @@ main {
 
   #sidebar-toogler {
     display: flex;
-    /* position: absolute; */
-    /* right: -16px; */
-    /* top: 16px; */
   }
 
   #sidebar-close {
@@ -249,7 +224,6 @@ main {
   list-style: none;
 
   padding-left: 0 !important;
-  /* padding: 24px; */
 }
 
 .nav-list li {
@@ -277,7 +251,6 @@ main {
 
 .nav-list li:hover {
   background-color: rgba(29, 161, 242, 0.1);
-  /* transition: all 0.5s linear; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -289,51 +262,6 @@ main {
     font-size: 16px;
   }
 }
-
-/* .navbar {
-  font-family: "Montserrat", sans-serif;
-  padding: 10px 0 0;
-  transition: all 0.5s ease;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 8px 0px;
-  box-sizing: border-box;
-}
-
-.navbar .navbar-brand,
-.navbar .navbar-nav > li > a {
-  color: #353535;
-  background-color: inherit;
-}
-
-.navbar .navbar-nav > li > a:hover {
-  box-shadow: inset 0px -4px 0px 0px #e34e09;
-}
-
-.navbar .navbar-nav > .current {
-  color: #00a6fb;
-}
-
-.navbar .navbar-brand {
-  font-weight: 700;
-  font-size: 1.25em;
-  letter-spacing: 3px;
-}
-
-.container-fluid {
-  background-color: #fff;
-}
-
-.navbar-toggle {
-  border: none;
-}
-
-.navbar .navbar-toggle:focus,
-.navbar .navbar-toggle:hover {
-  background-color: #fff;
-}
-
-.navbar .navbar-toggle .icon-bar {
-  background-color: black;
-} */
 
 /* DONATE ICON */
 
