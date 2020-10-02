@@ -289,8 +289,7 @@ body {
 
 /* FOOTER */
 
-footer .fab,
-footer .fas {
+footer .fab {
   font-size: 24px;
 }
 
