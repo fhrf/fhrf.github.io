@@ -202,10 +202,9 @@
       </div>
 
       <main>
-        <div class="height-100vh"></div>
         <div class="front-cover">
-          <img id="backdrop" style="transition: background 0.5s ease-in; background: url(media/activities/024-mask-distribution/05.jpg)"/>
-          <div class="backdrop-text">
+          <!-- <div id="backdrop" style="transition: background 0.5s ease-in; background: url(media/activities/024-mask-distribution/05.jpg)"></div> -->
+          <div id="backdrop" class="backdrop-text" style="background: url(media/activities/024-mask-distribution/05.jpg) 100% / cover">
             First Human Rights Foundation
             <br />
             <br />
@@ -368,7 +367,7 @@
       setInterval(
         () => {
           backdropEle.style.background =
-            `url(${backdropImgs[currImg++]}) center center no-repeat`;
+            `url(${backdropImgs[currImg++]}) 100% / cover`;
           if (currImg === backdropImgs.length)
             currImg = 0;
         },

@@ -24,13 +24,11 @@ body {
 }
 
 .front-cover {
-  position: absolute;
   top: 0;
   border: 0;
   left: 0;
   right: 0;
   height: 100vh;
-  object-fit: cover;
 }
 
 .front-cover img {
@@ -40,8 +38,6 @@ body {
 }
 
 .front-cover .backdrop-text {
-  position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
   color: #ffffff;
   top: 0;
   bottom: 0;
@@ -50,10 +46,12 @@ body {
   font-size: 36px;
   text-align: center;
   padding: 40px;
-  display: flex;
+  height: 100vh;
+  display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: background 0.5s ease-in; 
 }
 
 /* INFO CARDS */
