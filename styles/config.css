@@ -166,9 +166,6 @@ body {
 .main-content {
   transition: margin-left 0.25s ease-out;
   min-height: 100vh;
-  padding-left: 30px;
-  padding-right: 30px;
-
   margin-left: 250px;
 }
 
@@ -187,8 +184,6 @@ body {
 
   .main-content {
     margin-left: 0;
-    padding-left: 16px;
-    padding-right: 16px;
   }
 
   #sidebar-toogler {
