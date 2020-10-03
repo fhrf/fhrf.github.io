@@ -189,10 +189,8 @@ body {
 
   .main-content {
     margin-left: 0;
-    padding-left: 0px;
-    padding-right: 0px;
-    width: 90%;
-    margin: 0 auto;
+    padding-left: 16px;
+    padding-right: 16px;
   }
 
   #sidebar-toogler {
@@ -349,8 +347,3 @@ footer a:hover {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
- .social-links ul {
-    width: 325px;
-  }
-}
