@@ -203,8 +203,7 @@
 
       <main>
         <div class="front-cover">
-          <!-- <div id="backdrop" style="transition: background 0.5s ease-in; background: url(media/activities/024-mask-distribution/05.jpg)"></div> -->
-          <div id="backdrop" class="backdrop-text" style="background: url(media/activities/024-mask-distribution/05.jpg) 100% / cover">
+          <div id="backdrop" class="backdrop-text" style="background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url(media/activities/024-mask-distribution/05.jpg) 100% / cover">
             First Human Rights Foundation
             <br />
             <br />
@@ -367,7 +366,10 @@
       setInterval(
         () => {
           backdropEle.style.background =
-            `url(${backdropImgs[currImg++]}) 100% / cover`;
+            `linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),url(${backdropImgs[currImg++]}) 100% / cover`;
           if (currImg === backdropImgs.length)
             currImg = 0;
         },
