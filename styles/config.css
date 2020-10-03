@@ -81,7 +81,7 @@ main {
 /* INFO CARDS */
 .info-cards {
   margin-top: 40px;
-  background-color: #c2b280;
+  background-color: #ffc107;
 }
 
 .info-cards .container {
@@ -396,39 +396,42 @@ footer .fas {
   width: 250px;
   text-align: left;
 }
-#foot{
-  border-radius: 100px;
-  margin-top: 20px;
-  margin-left:800px;
-}
+
 .social-handles{
   display: flex;
-  flex-direction: flex-end;
-  justify-content: space-around;
-  margin-top: 20px;
-  margin-left: 800px;
-  
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+.social-handles li{
+  margin: 20px;
+  margin-bottom:1px;
+}
+#sitemap{
+  background:#ffc107;
+}
+@media (max-width:768px){
+  #sitemap .sitemap-list{
+    display: none;
+  }
 
 
+}
 
 
 .sitemap-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  font-weight: bold;
 }
 .sitemap-list a{
   color:#333;
   
 }
 .sitemap-list a:hover{
-  color: white;
+  color:white;
 }
-#sitemap{
-  background:#c2b280;
-  display: flex;
-  
-}
+
 
 footer ul {
   list-style: none;
