@@ -5,20 +5,20 @@ This is an official website codebase of Human Rights NGO -
 
 FHRF, a non-profit NGO, was established as the will of citizens to participate actively in the Protection of Human Rights
 
-FHRF strives to bring together all the people who believe in democracy and human rights values in – social , political, economic areas.
+FHRF strives to bring together all the people who believe in democracy and human rights values in – social, political, economic areas.
 
 Learn more on [about webpage](https://fhrf.in/about.html)
 
 ## Live Hosting ⛅️
 The code (master branch) is hosted with GitHub pages ([fhrf.github.io](fhrf.github.io))
 
-Moreover, a custom domain ([fhrf.in](https:fhrf.in)) is linked the GH page
+Moreover, a custom domain ([fhrf.in](https:fhrf.in)) is linked to the GH page
 
 ## Contributions 🚀
 
 The website uses plain HTML, CSS & basic JS.
 
-You can contribute this project by either improving documentation, website styling (UI/UX) or code structure
+You can contribute to this project by either improving documentation, website styling (UI/UX) or code structure
 
 > For every commit you make, vercel bot will automatically deploy website preview (To see the status of your deployment, click below or on the icon next to each commit)
 
@@ -28,7 +28,7 @@ You can contribute this project by either improving documentation, website styli
 1. Fork this repo
 2. Clone the forked repo (`yourusername/fhrf.github.io`)
 2. Open project in your favourite editor
-3. Make changes and open the html file in browser
+3. Make changes and open the HTML file in the browser
    - in VS Code, you can install [live server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) to make your life easy)
 4. Commit and push changes
 5. Raise the PR
