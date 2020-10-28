@@ -58,7 +58,6 @@ body {
 
 /* INFO CARDS */
 .info-cards {
-  margin-top: 40px;
   background-color: #ffd000;
 }
 
@@ -87,9 +86,9 @@ body {
 
   padding: 50px 0;
 
-  -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  /* -webkit-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); */
 }
 
 .info-cards .card a {
@@ -98,7 +97,7 @@ body {
 
 .info-cards .card i {
   font-size: 54px;
-  color: grey;
+  color:#1da1f2;
 
   margin-bottom: 16px;
 }
@@ -114,9 +113,24 @@ body {
   text-decoration: none;
 }
 
+.warp-coper{
+  height: 100vh;
+  position: relative;
+}
+
+.min-30{
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
 @media only screen and (max-width: 768px) {
+  .min-30{
+    margin-left: -16px;
+    margin-right: -16px;
+  }
   .info-cards .card {
     width: 100%;
+    margin-bottom: 20px;
   }
 }
 
@@ -125,7 +139,7 @@ body {
   display: none;
 
   z-index: 99;
-  position: sticky;
+  position: fixed;
 
   align-items: center;
   justify-content: center;
@@ -288,6 +302,10 @@ body {
 }
 
 /* FOOTER */
+
+footer {
+  padding-bottom: 20px;
+}
 
 footer .fab {
   font-size: 24px;
