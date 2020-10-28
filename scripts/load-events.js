@@ -9,7 +9,7 @@ $(document).ready(function () {
 
       eventsData.forEach((event) => {
         const eventImgs = event.files.map(
-          (file) => `<img src="media/activities/${event.folderName}/${file}">`
+          (file) => `<img src="media/activities/${event.folderName}/${file}" loading="lazy" />`
         ).join('');
 
         let eventDom = new DOMParser().parseFromString(
