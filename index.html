@@ -202,20 +202,15 @@
       </div>
 
       <main>
-        <div class="height-100vh"></div>
+        <!-- <div class="height-100vh"></div> -->
         <div class="front-cover">
           <img id="backdrop" />
           <div class="backdrop-text">
             First Human Rights Foundation
             <br />
             <br />
-            <span style="font-size: 18px"
-              >Everyone's right is our mission!</span
-            >
-            <br />
-            <br />
-            <br />
-            <span style="font-size: 14px">Registered With Central Government of India (Reg-No.166151/16)</span>
+            <span style="font-size: 18px">Everyone's right is our mission!</span>
+            <span style="font-size: 14px;position: absolute;bottom: 24px;">Registered With Central Government of India (Reg-No.166151/16)</span>
           </div>
         </div>
 
@@ -367,8 +362,7 @@
       let currImg = 0;
       setInterval(
         () => {
-          backdropEle.style.background =
-            `url(${backdropImgs[currImg++]}) center center no-repeat`;
+          backdropEle.style['background-image'] = `url(${backdropImgs[currImg++]})`;
           if (currImg === backdropImgs.length)
             currImg = 0;
         },
