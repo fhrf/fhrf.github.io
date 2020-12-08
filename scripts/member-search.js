@@ -1,4 +1,8 @@
 const validIds = [ 
+  { 
+    id: "MH-DU-205",
+    file: "MH-DU-205.jpg",
+  },
   {
     id: "TS-SU-148",
     file: "TS-SU-148.jpg",
