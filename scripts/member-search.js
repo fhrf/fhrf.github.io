@@ -1,7 +1,11 @@
-const validIds = [
+const validIds = [,
   { 
-    id: "MH-DU-204",
-    file: "MH-DU-204.jpg",
+    id: "TS-SU-206",
+    file: "TS-SU-206.jpg",
+  },
+  { 
+    id: "MH-SU-142",
+    file: "MH-SU-142.jpg",
   },
   { 
     id: "TS-DU-198",
