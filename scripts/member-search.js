@@ -1,4 +1,4 @@
-const validIds = [,
+const validIds = [
   { 
     id: "TS-SU-206",
     file: "TS-SU-206.jpg",
