@@ -21,3 +21,8 @@
   padding: 4px;
   max-width: 100%;
 }
+
+.upi-image {
+  max-width: 100%;
+  max-height: 40em;
+}
