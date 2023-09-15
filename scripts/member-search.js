@@ -110,6 +110,18 @@ const validIds = [
   {
     id: "MH-TU-205",
     file: "MH-TU-205.jpg",
+  },
+  {
+    id: "MH-DU-209",
+    file: "MH-DU-209.jpg",
+  },
+  {
+    id: "MH-TU-205",
+    file: "MH-TU-205.jpg",
+  },
+  {
+    id: "MH-TU-211",
+    file: "MH-TU-211.jpg",
   }
 ];
 const idCardImg = document.getElementById("idCardImg");
